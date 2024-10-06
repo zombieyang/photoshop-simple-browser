@@ -1,0 +1,40 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.connect-box {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 8px;
+    border-bottom: 1px solid;
+}
+
+.status-bar {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+#refresh-btn, #connect-btn {
+    border: 1px solid;
+    border-radius: 4px;
+    padding: 6px 12px;
+    margin: 0 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+#url-bar {
+    flex-grow: 1;
+    height: 30px;
+    font-size: 14px;
+}
+
+#webview {
+    border: none;
+    display: block;
+}

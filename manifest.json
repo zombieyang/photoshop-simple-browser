@@ -1,0 +1,111 @@
+{
+  "id": "simple-browser",
+  "name": "SIMPLE-BROWSER",
+  "version": "1.0.0",
+  "main": "index.html",
+  "manifestVersion": 5,
+  "host": {
+    "app": "PS",
+    "minVersion": "24.4.0"
+  },
+  "requiredPermissions": {
+    "webview": {
+      "allow": "yes",
+      "domains": "all",
+      "enableMessageBridge": "localAndRemote"
+    }
+  },
+  "entrypoints": [
+    {
+      "type": "panel",
+      "id": "simple-browser",
+      "label": {
+        "default": "Browser"
+      },
+      "minimumSize": {
+        "width": 300,
+        "height": 100
+      },
+      "maximumSize": {
+        "width": 1280,
+        "height": 960
+      },
+      "preferredDockedSize": {
+        "width": 1280,
+        "height": 960
+      },
+      "preferredFloatingSize": {
+        "width": 1280,
+        "height": 960
+      },
+      "icons": [
+        {
+          "width": 32,
+          "height": 32,
+          "path": "icons/icon_D.png",
+          "scale": [
+            1,
+            2
+          ],
+          "theme": [
+            "dark",
+            "darkest"
+          ],
+          "species": [
+            "generic"
+          ]
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "path": "icons/icon_N.png",
+          "scale": [
+            1,
+            2
+          ],
+          "theme": [
+            "lightest",
+            "light"
+          ],
+          "species": [
+            "generic"
+          ]
+        }
+      ]
+    }
+  ],
+  "icons": [
+    {
+      "width": 32,
+      "height": 32,
+      "path": "icons/icon_D.png",
+      "scale": [
+        1,
+        2
+      ],
+      "theme": [
+        "dark",
+        "darkest"
+      ],
+      "species": [
+        "generic"
+      ]
+    },
+    {
+      "width": 32,
+      "height": 32,
+      "path": "icons/icon_N.png",
+      "scale": [
+        1,
+        2
+      ],
+      "theme": [
+        "lightest",
+        "light"
+      ],
+      "species": [
+        "generic"
+      ]
+    }
+  ]
+}
